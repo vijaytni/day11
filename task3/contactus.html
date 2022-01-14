@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>          
+    <title>Contact Us  Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body> 
+    <div class="container">
+        <h3>Contact Form</h3>
+             <label for="first_name">First Name</label>
+            <input name="first_name" type="text" required placeholder="Enter First Name"/>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input name="last_name" type="text" required placeholder="Enter Last Name"/>
+            <br>
+            <label for="email">Email</label>
+            <input name="email" type="email" required placeholder="Enter Email ID"/>
+            <br>
+            <select name="reason" id="reason">
+                <option value="support">Product Support</option>
+                <option value="sale">Product Sales</option>
+            </select>
+            <br>
+            <label for="message">Message</label><br>
+            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+            <div class="center">
+                <input type="submit" value="Submit">
+            </div>
+     </div>
+</body>
+</html>
